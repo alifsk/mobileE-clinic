@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userhome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:background="@drawable/gradient9">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/user_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/user_logo"
+                        android:contentDescription="@string/profile_image"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:id="@+id/display_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="@string/nama"/>
+
+                        <TextView
+                            android:id="@+id/display_nim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:text="@string/nim"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:src="@drawable/logoputih"
+                    android:alpha=".10"
+                    android:contentDescription="@string/logo_name"/>
+
+                <TextView
+                    android:id="@+id/satulangkah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+
+                    android:text="@string/satu_langkah"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_below="@id/satulangkah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/hidup_sehat"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/white"
+                    android:textSize="50sp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backhome"
+                android:paddingTop="10dp"
+                android:paddingBottom="100dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <com.synnapps.carouselview.CarouselView
+                        android:id="@+id/carousel_dashboard"
+                        android:layout_width="340dp"
+                        android:layout_height="210dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_horizontal"
+                        app:fillColor="#fff"
+                        app:pageColor="#454545"
+                        app:radius="5dp"
+                        app:slideInterval="3000"
+                        app:strokeColor="#FF777777"
+                        app:strokeWidth="1dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/menu_dokter"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="20dp"
+                        android:elevation="50dp"
+                        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                        android:background="@drawable/custom_button_menuhome"
+                        android:drawableTop="@drawable/dokter"
+
+                        android:text="@string/menu_dokter"
+                        android:textColor="@color/blue_theme"/>
+
+                    <Button
+                        android:id="@+id/menu_jadwal"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="20dp"
+                        android:elevation="50dp"
+                        style="@style/TextAppearance.AppCompat.Widget.Button"
+                        android:background="@drawable/custom_button_menuhome"
+                        android:drawableTop="@drawable/jadwal"
+
+                        android:text="@string/menu_jadwal"
+                        android:textColor="@color/blue_theme"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/menu_obat"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="20dp"
+                        android:elevation="50dp"
+                        style="@style/TextAppearance.AppCompat.Widget.Button"
+                        android:background="@drawable/custom_button_menuhome"
+                        android:drawableTop="@drawable/obat"
+
+                        android:text="@string/menu_obat"
+                        android:textColor="@color/blue_theme"/>
+
+                    <Button
+                        android:id="@+id/menu_penyakit"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="20dp"
+                        android:elevation="50dp"
+                        style="@style/TextAppearance.AppCompat.Widget.Button"
+                        android:background="@drawable/custom_button_menuhome"
+                        android:drawableTop="@drawable/penyakit"
+
+                        android:text="@string/menu_penyakit"
+                        android:textColor="@color/blue_theme"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/menu_antrian"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="20dp"
+                        android:elevation="50dp"
+                        style="@style/TextAppearance.AppCompat.Widget.Button"
+                        android:background="@drawable/custom_button_menuhome"
+                        android:drawableTop="@drawable/antrian"
+
+                        android:text="@string/menu_antrian"
+                        android:textColor="@color/blue_theme"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

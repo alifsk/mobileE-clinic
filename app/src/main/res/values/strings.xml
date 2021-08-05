@@ -1,0 +1,163 @@
+<resources>
+    <!--This is App Name-->
+    <string name="app_name">Brawijaya E-Clinic</string>
+    <!--This is App Version-->
+    <string name="app_version">Version 1.0.3</string>
+
+
+    <string name="logo_name">This is App Logo</string>
+    <string name="poweredby">Powered by</string>
+    <string name="login">MASUK</string>
+    <string name="register">DAFTAR</string>
+    <string name="input_nim">NIM</string>
+    <string name="input_nimemail">NIM / Email</string>
+    <string name="input_password">Password</string>
+    <string name="input_namadepan">Nama Depan</string>
+    <string name="input_namabelakang">Nama Belakang</string>
+    <string name="input_email">Email</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="input_konfirmasipassword">Konfirmasi Password</string>
+    <string name="belum_punya">Belum Punya Akun ?</string>
+    <string name="greeting1">Hai,</string>
+    <string name="greeting2">Selamat Datang !</string>
+    <string name="greeting3">Selamat</string>
+    <string name="greeting4">Datang !</string>
+    <string name="register_title">Daftar</string>
+    <string name="register_subtitle">Satu akun untuk semua akses di Brawijaya E-Clinic App</string>
+    <string name="sudah_punya">Sudah memiliki akun ?</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_panduan">Panduan</string>
+    <string name="menu_logout">Logout</string>
+    <string name="user_name">Rifqi Ardhian !</string>
+    <string name="menu_dokter">Dokter</string>
+    <string name="detail_dokter">Detail Dokter</string>
+    <string name="menu_jadwal">Jadwal Praktik</string>
+    <string name="menu_obat">Obat</string>
+    <string name="menu_penyakit">Penyakit</string>
+    <string name="menu_antrian">Antrian</string>
+    <string name="layanan_kami">Layanan Kami</string>
+    <string name="profile_title">Profil Anda</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="nama">Rifqi Ardhian</string>
+    <string name="nim">183140914111021</string>
+    <string name="edit_profile">Ubah Profil</string>
+    <string name="edit_password">Ubah Password</string>
+    <string name="antrian_anda">Antrian Anda</string>
+    <string name="panduan">Panduan Aplikasi</string>
+    <string name="simpan">Simpan</string>
+    <string name="satu_langkah">Satu Langkah</string>
+    <string name="hidup_sehat">Hidup Sehat</string>
+    <string name="detail_profil">Detail Profil</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_nama">NAMA</string>
+    <string name="label_email">EMAIL</string>
+    <string name="label_gender">GENDER</string>
+    <string name="label_poli">POLI</string>
+    <string name="label_namadokter">NAMA DOKTER</string>
+    <string name="label_jadwalpraktik">JADWAL PRAKTIK</string>
+    <string name="email">rifqiardhian@gmail.com</string>
+    <string name="gender">L</string>
+    <string name="wait">loading…</string>
+    <string name="abai">Abaikan jika tidak ingin mengubah password</string>
+    <string name="cari_penyakit">Cari Nama Penyakit</string>
+    <string name="back">Back</string>
+    <string name="nama_penyakit">Nama Penyakit</string>
+    <string name="kategori_penyakit">Kategori</string>
+    <string name="kategori_penyakit_detail">Kategori : Penyakit</string>
+    <string name="text_content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </string>
+    <string name="penyebab">Penyebab</string>
+    <string name="gejala">Gejala</string>
+    <string name="pengobatan">Pengobatan</string>
+    <string name="pencegahan">Pencegahan</string>
+    <string name="kembali_penyakit">Kembali ke halaman penyakit</string>
+    <string name="cari_obat">Cari Nama Obat</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="kegunaan">Kegunaan</string>
+    <string name="dosis">Dosis</string>
+    <string name="efek_samping">Efek Samping</string>
+    <string name="peringatan">Peringatan</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="kembali_obat">kembali ke halaman obat</string>
+    <string name="cari_dokter">Cari Dokter atau Poli</string>
+    <string name="nama_dokter">dr. Rifqi Ardhian, Sp.JP</string>
+    <string name="nama_poli">Poli Umum</string>
+    <string name="jadwal">Senin - 07.00</string>
+    <string name="temui_dokter">Temui Dokter</string>
+    <string name="jadwal_praktik_dokter">Jadwal Praktik Dokter</string>
+    <string name="terbaru">Terbaru</string>
+    <string name="konfirmasi_antrian">Konfirmasi Antrian</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="label_tanggal">TANGGAL BEROBAT</string>
+    <string name="tanggal_belum_dipilih">Tanggal Belum Dipilih</string>
+    <string name="note_tanggal">Pilih tanggal sesuai dengan jadwal praktik !</string>
+    <string name="detail_antrian">Detail Antrian</string>
+    <string name="nomor_antrian_pending">---</string>
+    <string name="label_status">STATUS</string>
+    <string name="status_antrian">PENDING</string>
+    <string name="tanggal_berobat">01 January 2020</string>
+    <string name="antrian_greeting">
+        Diharapkan datang maksimal 30 menit sebelum jam praktik dimulai. Terimakasih atas kepercayaan anda
+        kepada Brawijaya E-Clinic
+    </string>
+    <string name="antrian_pending_note">
+        Tunggu beberapa saat untuk mendapatkan nomor antrian.
+        Status antrian akan menjadi sukses setelah mendapat nomor antrian
+        dan berada di Riwayat Antrian.
+    </string>
+    <string name="intro">
+        Dengan perkembangan teknologi saat ini, teknologi telah masuk ke berbagai bidang dan aspek
+        salah satunya adalah kesehatan. Salah satu inovasi baru untuk dunia kesehatan yakni Brawijaya E-Clinic.
+        Kemudahan dalam mendapatkan informasi terkait obat dan penyakit, kemudahan dalam mendapatkan antrean
+        klinik tanpa harus langsung menuju klinik dan kemudahan - kemudahan lainnya hanya disini di Brawijaya E-Clinic.
+    </string>
+    <string name="panduan_umum">
+        1. Aplikasi ini adalah aplikasi kesehatan yang bertujuan untuk memudahkan pengguna atau 
+        pasien dalam mendapatkan informasi lebih lengkap mengenai kesehatan
+        2. Di dalam aplikasi juga terdapat sistem pengambilan antrean secara daring / online pada
+        Klinik Universitas Brawijaya tanpa harus susah untuk mengantre di klinik
+        3. Seluruh konten dari aplikasi merupakan hak cipta dari Universitas 
+        Brawijaya Malang dan pihak developer
+    </string>
+    <string name="panduan_akun">
+        1. Seluruh pengguna dari aplikasi ini adalah warga Universitas Brawijaya
+        2. Seluruh data dari pengguna adalah kepemilikan penuh dari Universitas Brawijaya
+        3. Untuk bisa mengakses aplikasi pengguna harus memiliki akun di Brawijaya e-Klinik, tatacara
+        Daftar/Registrasi dan Masuk/Login.
+        4. Di dalam aplikasi terdapat menu profil yakni edit data profil dan password.
+    </string>
+    <string name="panduan_dokter">
+        1. Halaman ini berisikan informasi seluruh dokter, memilih dokter, dan menentukan jadwal berobat.
+        2. Terdapat fitur pencarian dokter dan detail dokter
+    </string>
+    <string name="panduan_jadwal">
+        1. Halaman ini berisikan informasi lengkap mengenai jadwal praktik.
+        2. Terdapat fitur pencarian jadwal praktik.
+    </string>
+    <string name="panduan_antrian">
+        1. Pemilihan jadwal dokter dilakukan setelah memilih data dokter pada menu dokter.
+        2. Terdapat fitur pemilihan tanggal untuk memilih jadwal berobat ke dokter uang dipilih.
+        3. Setelah sukses melakukan proses antrian akan otomatis tersimpan dan masuk ke daftar antrian 
+        maupun riwayat antrian
+    </string>
+    <string name="panduan_obat">
+        1. Halaman ini berisikan informasi obat - obat.
+        2. Terdapat fitur pencarian obat dan detail obat.
+    </string>
+    <string name="panduan_penyakit">
+        1. Halaman ini berisikan informasi penyakit - penyakit disekitar anda.
+        2. Terdapat fitur pencarian penyakit dan detail penyakit.
+    </string>
+    <string name="thanks">
+        Special thanks to Pak Fandi, and Regu Naga Team (Rifqi, Bima, and Robbi ) who involved in this wonderful project
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

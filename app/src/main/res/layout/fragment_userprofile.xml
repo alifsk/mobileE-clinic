@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userprofile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:background="@color/superlightgrey"/>
+
+        <RelativeLayout
+            android:id="@+id/backblue"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:background="@drawable/gradient7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/profile_title"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/profile_image"
+                android:cropToPadding="true"
+                android:src="@drawable/userprofile"/>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/nama"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/backblue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient10"/>
+
+        <LinearLayout
+            android:id="@+id/backwhite"
+            android:layout_below="@id/backblue"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient8">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                android:layout_margin="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/label_nim"
+                        android:labelFor="@id/nim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nim"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/nim"
+                        android:layout_below="@id/label_nim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/nim"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-light"/>
+
+                    <TextView
+                        android:id="@+id/label_email"
+                        android:labelFor="@id/email"
+                        android:layout_below="@id/nim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_email"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_below="@id/label_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-light"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/edit_profil"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/edit_profile"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/custom_button_menuhome"/>
+
+            <Button
+                android:id="@+id/btn_edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/edit_password"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_button_menuhome"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

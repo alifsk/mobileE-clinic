@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient2"
+        android:gravity="center">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carousel_landing"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            app:fillColor="#fff"
+            app:pageColor="#000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+        <Button
+            android:id="@+id/btn_landing_login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_landing_button"
+
+            android:text="@string/login"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/light_grey"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_landing_register"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_landing_button"
+
+            android:text="@string/register"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/light_grey"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
